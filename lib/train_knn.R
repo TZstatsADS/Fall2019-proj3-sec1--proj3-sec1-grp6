@@ -18,7 +18,9 @@ train <- function(feature_df = pairwise_data, par = NULL){
     k = par$k
   }
   
-  # model <- 
+  model <- knn3(x = feature_df[,-which(names(feature_df) == 'emotion_idx')],
+                y = feature_df$emotion_idx, 
+                k = k)
   
   return(model)
 }
