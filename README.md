@@ -14,7 +14,7 @@ Term: Fall 2019
 	+ Qiu, Feng fq2150@columbia.edu
 	+ Ye, Xuanhong xy2387@columbia.edu
 
-+ Project summary: In this project, we have tuned GBM/SVM and XGBoost to generated prediction results. 
++ Project summary: In this third project of GR5243 Applied Data Science, we created a classification engine for facial emotion recognition. For the feature, we used pairwise distances between all the fiducial points since using only a location of the points showed poor performance. To build advanced models compared to the given baseline model, GBM, we chose eXtreme Gradient Boosting (XGBOOST) and Support Vector Machine (SVM) as our Machine Learning technique. We used Cross Validation to tune parameters of the models, except for XGBOOST's "n_estimators" due to a high training cost of the model. The models we built clearly showed a better performance.
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. Please find below participation of individual resources. 
 
